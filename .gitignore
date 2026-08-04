@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+venv/
+ai_service/venv/
+__pycache__/
+*.pyc
+
+# Environment & Secrets
+.env
+ai_service/.env
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
+# Build Output
+dist/
+build/
+
+# Temp / Duplicate folders
+-api-gateway-rate-limit-traffic-simulator/
+
+# Logs
+logs/
+*.log
+
+# OS & Editor
+.DS_Store
+.vscode/
+.idea/
